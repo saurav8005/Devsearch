@@ -32,7 +32,7 @@ def location(x): return os.path.join(os.path.realpath(BASE_DIR), x)
 SECRET_KEY = 'django-insecure-z5qotk^*(qt4pmh(^ph*p&=zdrldyz+&4@#^pn9mq%vf63_9fb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
